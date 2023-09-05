@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+ 
+
+        .header {
+
+            position: relative;
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 10px;
+
+            background-color: #ffffff;
+
+        }
+
+ 
+
+        .logo {
+
+            position: absolute;
+
+            top: 50%;
+
+            right: 20px;
+
+            transform: translateY(-50%);
+
+            max-width: 100px;
+
+        }
+
+ 
+
+        .left-corner {
+
+            text-align: left;
+
+        }
+
+ 
+
+        .center {
+
+            text-align: center;
+
+        }
+
+ 
+
+        .left-align {
+
+            text-align: left;
+
+            margin: 0;
+
+        }
+
+ 
+
+        .main-content {
+
+            margin: 20px;
+
+        }
+
+ 
+
+        .product-table, .amount-table {
+
+            border-collapse: collapse;
+
+            width: 100%;
+
+            margin-bottom: 20px;
+
+        }
+
+ 
+
+        .product-table th, .product-table td, .amount-table th, .amount-table td {
+
+            border: 1px solid #000;
+
+            padding: 8px;
+
+            text-align: center;
+
+        }
+
+ 
+
+        .product-table th {
+
+            font-weight: bold;
+
+        }
+
+ 
+
+        .amount-table td {
+
+            text-align: right;
+
+        }
+
+ 
+
+        .footer {
+
+            margin-top: 20px;
+
+            padding: 20px;
+
+            background-color: #b0e0e6;
+
+            color: #000;
+
+            text-align: left;
+
+        }
+
+ 
+
+        .terms-list {
+
+            padding-left: 20px;
+
+            list-style: none;
+
+        }
+
+ 
+
+        .terms-list li:before {
+
+            content: "; ";
+
+        }
+
+ 
+
+        .terms-table {
+
+            width: 100%;
+
+            border-collapse: collapse;
+
+        }
+
+ 
+
+        .terms-table td {
+
+            padding: 10px;
+
+            border: none;
+
+        }
+
+ 
+
+        .number {
+
+            text-align: center;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="left-corner"><p>QT/16110/21-22/DBW</p><p> 01/09/2023</p></div>
+
+        <div class="center">
+
+            <p class="left-align">
+
+                <p>ABC Digital Pvt Ltd</p>
+
+                <p>91/1, 6th A Main, 10th Cross, </p>
+
+                <p> Bangalore - 560032 </p>
+
+                <p> Karnataka</p>
+
+               <p><b>GSTN : 29AAMCA6559M1ZT</b></p>
+
+            </p>
+
+           
+
+        </div>
+
+
+
+    </div>
+
+    <hr>
+
+ 
+
+    <div class="main-content">
+
+        <div class="left-corner">
+
+            <p><b>WIPRO LTD</b></p>
+
+            <p>EC Campus - 4 Electronic city Campus-4,</p>
+
+            <p>Bengaluru-560100 Karnataka</p>
+
+            <p><b>GSTN :</b> 29AAACW0387R2ZI</p>
+
+            <p><b>Dear Sir/Madam,</b></p>
+
+        </div>
+
+        <div class="table-container">
+
+            <table class="product-table">
+
+                <tr class="header-row">
+
+                    <th>Product</th>
+
+                    <th>Part No</th>
+
+                    <th>Quantity List</th>
+
+                    <th>Price</th>
+
+                    <th>CGST</th>
+
+                    <th>SGST</th>
+
+                    <th>IGST</th>
+
+                    <th>Total</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>NVIDIA Tesla A100 Ampere 40 GB Graphics Card - PCIe 4.0 - Dual Slot</td>
+
+                    <td>CA-CXTDS</td>
+
+                    <td>1</td>
+
+                    <td>₹ 5,56,130.15</td>
+
+                    <td>₹ 0.00</td>
+
+                    <td>₹ 0.00</td>
+
+                    <td>₹ 0.00</td>
+
+                    <td>₹ 5,56,130.15</td>
+
+                </tr>
+
+                <br>
+
+            </table>
+
+            <table class="amount-table">
+
+                <tr>
+
+                    <td>Pre Tax Amount</td>
+
+                    <td>₹ 5,56,130.15</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>CGST Amount</td>
+
+                    <td>₹ 0.00</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>SGST Amount</td>
+
+                    <td>₹ 0.00</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>IGST Amount</td>
+
+                    <td>₹ 0.00</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>TCS Total</td>
+
+                    <td>0</td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div>
+
+            <p><b>Total Amount in Words:(Rounded Off) RS.</b></p>
+
+            <p><b>Terms and Conditions</b></p>
+
+            <table class="terms-table">
+
+                <tr>
+
+                    <td class="number">1.</td>
+
+                    <td>Warranty</td>
+
+                    <td>:</td>
+
+                    <td>Manufacturers' standard warranty terms for the products apply. Please refer to relevant T&amp;C on the product websites.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="number">2.</td>
+
+                    <td>Payment Terms</td>
+
+                    <td>:</td>
+
+                    <td>Credit -60 days from the date of billing &amp; supply</td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="number">3.</td>
+
+                    <td>Delivery</td>
+
+                    <td>:</td>
+
+                    <td>In 1 Week from the receipt of order</td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="number">4.</td>
+
+                    <td>Validity</td>
+
+                    <td>:</td>
+
+                    <td>One week from the date of Quotation</td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="number">5.</td>
+
+                    <td>GST Terms</td>
+
+                    <td>:</td>
+
+                    <td>DTA certificates should be issued for SEZ billings</td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="number">6.</td>
+
+                    <td>Other Terms</td>
+
+                    <td>:</td>
+
+                    <td></td>
+
+                </tr>
+
+            </table>
+
+            <p>Please feel free to contact us for any further assistance or clarification. We look forward to your esteemed order and pledge to serve you to the best of our ability at all times. Interest @2% per month will be charged on overdue bills. Manufacturer's warranty and service terms and conditions apply. </p>
+
+            <p><b>TCS Will be charged as Applicable as per Government Rules.</b></p>
+
+            <p><b></b>Thanking You,</b></p>
+
+            <p>With Regards,<br><b>For ABC Digital Pvt.Ltd.</b><br>XXXXX <br>xxx.xyz@abc.co.in <br>+91-9686685421</p>
+
+        </div>
+
+        <div class="footer" style="background-color: #b0e0e6;">
+
+            <p>ABC Digital Pvt Ltd </p>
+
+            <p> eMail info@abc.co.in www.abc.co.in</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+ 
